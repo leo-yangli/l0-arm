@@ -3,11 +3,11 @@
 This repository contains the code for [L0-ARM: Network Sparsification via Stochastic Binary Optimization](https://arxiv.org/abs/1904.04432).
 
 ## Demo
-Visualization of part of the neurons in conv-layer and fully-connected layer of the LeNet-5-Caffe sparsified by L0-ARM. To achieve computational efficiency, only neuron-level (instead of weight-level) sparsification is considered. 
+Visualization of part of the neurons in conv-layer(left) and fully-connected layer(right) of the LeNet-5-Caffe sparsified by L0-ARM. To achieve computational efficiency, only neuron-level (instead of weight-level) sparsification is considered. 
 
 <p align="center">
-<img height="400" src="https://github.com/leo-yangli/l0-arm/blob/master/conv_layer.gif?raw=true"/>
-<img height="400" src="https://github.com/leo-yangli/l0-arm/blob/master/fc_layer.gif?raw=true"/>
+    <img height="400" alt="conv_layer" src="https://github.com/leo-yangli/l0-arm/blob/master/conv_layer.gif?raw=true"/>
+    <img height="400" alt="fc_layer" src="https://github.com/leo-yangli/l0-arm/blob/master/fc_layer.gif?raw=true"/>
 </p>
 
 ## Requirements
@@ -27,6 +27,7 @@ Visualization of part of the neurons in conv-layer and fully-connected layer of 
         python main.py help
         
 ## Citation
+If you found this code useful please cite our paper.
     @inproceedings{l0arm2019,
       title={{L0-ARM}: Network Sparsification via Stochastic Binary Optimization},
       author={Yang Li and Shihao Ji},
