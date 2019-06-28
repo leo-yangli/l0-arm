@@ -27,7 +27,7 @@ Visualization of part of the neurons in conv-layer(left) and fully-connected lay
         python main.py help
         
 ## Citation
-If you found this code useful please cite our paper.
+If you found this code useful, please cite our paper.
 
     @inproceedings{l0arm2019,
       title={{L0-ARM}: Network Sparsification via Stochastic Binary Optimization},
