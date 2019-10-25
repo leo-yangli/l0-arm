@@ -22,9 +22,9 @@ Visualization of part of the neurons in conv-layer(left) and fully-connected lay
     python main.py <function> [--args=value]
         <function> := train | test | help
     example: 
-        python main.py train --model=ARMLeNet5 --dataset=mnist --lambas='[.1,.1,.1,.1]' --optimizer=adam --lr=0.001
-        python main.py test --model=ARMLeNet5 --dataset=mnist --lambas='[.1,.1,.1,.1]' --load_file="checkpoints/ARMLeNet5_2019-06-19 14:27:03/0.model"
-        python main.py train --model=ARMWideResNet --dataset=cifar10 --lambas=.001 --optimizer=momentum --lr=0.1 schedule_milestone='[60, 120]'
+        python main.py train --model=ARMLeNet5 --dataset=mnist --lambas="[.1,.1,.1,.1]" --optimizer=adam --lr=0.001
+        python main.py test --model=ARMLeNet5 --dataset=mnist --lambas="[.1,.1,.1,.1]" --load_file="checkpoints/ARMLeNet5_2019-06-19 14:27:03/0.model"
+        python main.py train --model=ARMWideResNet --dataset=cifar10 --lambas=.001 --optimizer=momentum --lr=0.1 --schedule_milestone="[60, 120]"
         python main.py help
         
 ## Citation
